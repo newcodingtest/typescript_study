@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "module": "NodeNext",
+      "moduleResolution": "NodeNext",
+      "noImplicitAny": true,
+      "strictNullChecks": true, 
+      // 빌드 파일 위치
+      "outDir": "build"
+    },
+
+
+
+      // 컴파일 포함
+      //"include": ["src"],
+      "exclude": [
+        "view"
+      ]
+  }
